@@ -1,0 +1,346 @@
+.apps {
+    padding-bottom: 7rem;
+}
+.apps-inner{
+    margin-top: 7rem;
+}
+
+.apps-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.apps-title{
+    font-family:'Satoshi', sans-serif;
+    font-size: var(--fs-h2);
+    line-height: var(--lh-h2);
+    letter-spacing: var( --ls-tight);
+
+    background: linear-gradient(to bottom, #F6F6F7 0%, #7E808F 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    margin-bottom: 2rem;
+}
+
+.apps-text{
+    display: flex;
+    font-family:'Satoshi', sans-serif;
+    font-size: var(--fs-h3);
+    line-height: var(--lh-h3);
+    letter-spacing: var(--ls-tight);
+
+
+    background: linear-gradient(to bottom, #F6F6F7 0%, #7E808F 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    margin-bottom: 6rem; 
+    gap: 3rem;
+}
+
+.apps-item{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    img{
+        width: 4rem;
+        height: 3rem;
+        transform: translateY(2px);
+    }
+}
+
+
+.apps-grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 4rem;
+    align-items: stretch;
+}
+
+.apps-card{
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    border: 1px solid var(--color-gray-500);
+}
+
+.apps-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 46.5rem;
+    margin-right: 14rem;
+    flex:1;
+}
+
+.apps-left-title{
+    font-family:"Satoshi", sans-serif;
+    font-weight: 700;
+    font-size: var(--fs-h5);
+    line-height: var(--lh-h5);
+    letter-spacing: var(--ls-tight);
+    color: var(--color-white);
+    margin-bottom: 1.5rem;
+}
+
+.apps-left-text {
+    font-weight: 400;
+    font-size: var(--fs-p-rg);
+    line-height: var(--lh-p-rg);
+    color: var(--color-gray-300);
+    margin-bottom: 3.5rem;
+
+}
+
+.apps-card--large {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column: 1/3;
+    padding: 7rem;
+    background-color: var(--color-gray-800);
+
+
+    background-image: 
+    radial-gradient(ellipse at top right, rgba(50, 202, 253, 0.15), transparent 60%),
+    radial-gradient(ellipse at bottom left, rgba(114, 20, 255, 0.15), transparent 60%);
+}
+
+.apps-left-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    align-items: stretch;
+    object-fit: cover;
+    
+}
+
+
+
+.ellipse-3 {
+    width: 11.8rem;
+    height: 11.8rem;
+    background-color: var(--color-green);
+    top: 2rem;
+    right: 1.5rem;
+    filter: blur(100px);
+}
+
+.ellipse-4 {
+    width: 11.8rem;
+    height: 11.8rem;
+    background-color: var(--color-primary);
+    bottom: 0;
+    left: 2rem;
+    filter: blur(100px);
+}
+
+.apps-card--mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 5.5rem;
+    position: relative;
+    overflow: hidden;
+
+    background-color: var(--color-gray-800);
+}
+
+.apps-mobile-text {
+    margin-top: 4rem;
+}
+
+.apps-card--mobile img{
+    align-self: center;
+    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+}
+
+.apps-card--mobile h5 {
+    font-family: 'Satoshi', sans-serif;
+    font-size: var(--fs-h5);
+    line-height: var(--lh-h5);
+    letter-spacing: var(--ls-tight);
+    font-weight: 700;
+    color: var(--color-white);
+    margin-bottom: 1.5rem;
+}
+
+.apps-card--mobile p {
+    font-size: var(--fs-p-rg);
+    line-height: var(--lh-p-rg);
+    font-weight: 400;
+    color: var(--color-gray-300);
+    margin-bottom: 3.5rem;
+
+}
+
+.apps-card--files{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5.5rem 5rem 0 5.5rem;
+    position: relative;
+    overflow: hidden;
+
+    background-color: var(--color-gray-800);
+
+}
+
+.ellipse-6 {
+    width: 15rem;
+    height: 15rem;
+    background-color: var(--color-primary);
+    top: 2rem;
+    right: 4rem;
+    filter: blur(150px);
+}
+
+.ellipse-5 {
+    width: 16.6rem;
+    height: 16.6rem;
+    background-color: var(--color-neon);
+    bottom: 2rem;
+    left: 2rem;
+    filter: blur(150px);
+}
+
+.apps-card--files h5 {
+    font-family: 'Satoshi', sans-serif;
+    font-size: var(--fs-h5);
+    line-height: var(--lh-h5);
+    letter-spacing: var(--ls-tight);
+    font-weight: 700;
+    color: var(--color-white);
+    margin-bottom: 1.5rem;
+
+}
+
+.apps-card--files p{
+    font-size: var(--fs-p-rg);
+    line-height: var(--lh-p-rg);
+    font-weight: 400;
+    color: var(--color-gray-300);
+    margin-bottom: 3.5rem;
+
+}
+
+.apps-card--files img {
+    margin-top: auto;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.apps-btns {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+
+.apps-bg-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+@media (max-width: 768px) {
+    .apps {
+        padding-bottom: 3rem;
+    }
+
+    .apps-header{
+        display: flex;
+        
+    }
+
+    .apps-inner {
+        margin-top: 3rem;
+    }
+
+    .apps-title {
+        font-size: 1.8rem;
+        line-height: 1.3;
+        margin-bottom: 1.5rem;
+    }
+
+    .apps-text {
+      
+        font-size: 1.2rem;
+        line-height: 1.4;
+        gap: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .apps-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .apps-card--large {
+        grid-column: 1;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .apps-left {
+        margin-right: 0;
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .apps-left-title {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .apps-left-text {
+        margin-bottom: 2rem;
+        font-size: 0.95rem;
+    }
+
+    .apps-card--mobile,
+    .apps-card--files {
+        padding: 2rem;
+    }
+
+    .apps-card--mobile h5,
+    .apps-card--files h5 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .apps-card--mobile p,
+    .apps-card--files p {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .apps-btns {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 3rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

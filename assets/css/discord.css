@@ -1,0 +1,124 @@
+.discord{
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+}
+
+
+
+
+.discord-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width:102rem;
+    background-color: var(--color-gray-800);
+    border-radius: 1rem;
+    position: relative;
+
+    padding:9rem 0;
+
+    border: 1px solid var(--color-gray-500);
+    overflow: hidden;
+
+    background-image: url(../img/discord2.png);
+               
+}
+
+
+
+.ellipse {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.ellipse-8 {
+    width: 12rem;
+    height: 12rem;
+    background-color: var(--color-summer);
+    top: 0;
+    left: 2rem;
+    filter: blur(120px);
+}
+
+.ellipse-9 {
+    width: 12rem;
+    height: 12rem;
+    background-color: var(--color-primary);
+    right: 0;
+    top:0;
+    filter: blur(100px);
+}
+
+.ellipse-10 {
+    width: 12rem;
+    height: 12rem;
+    background-color: #5865F2;
+    bottom: -2rem;
+    left: 43%;
+    filter: blur(80px);
+}
+
+
+
+.discord-logo {
+    display: block;
+    width: 6rem;
+    height: 5rem;
+    margin-bottom: 3rem;
+}
+
+.discord-title {
+    font-size: var(--fs-h4);
+    line-height: var(--lh-h4);
+    letter-spacing: var(--ls-tight);
+    color: var(--color-white-200);
+    margin-bottom: 1.5rem;
+}
+
+.discord-text {
+    font-size: var(--fs-subtitle-rg);
+    line-height: var(--lh-subtitle-rg);
+    letter-spacing: var(--ls-tight);
+    color:var(--color-gray-300);
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+    .discord {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .discord-inner {
+        max-width: 100%;
+        padding: 3rem 2rem;
+        border-radius: 0.5rem;
+    }
+
+    .discord-logo {
+        width: 4rem;
+        height: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .discord-title {
+        font-size: 1.5rem;
+        line-height: 1.3;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .discord-text {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-bottom: 2rem;
+        max-width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

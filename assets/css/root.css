@@ -1,0 +1,43 @@
+:root{
+    --fs-h1:6.4rem;     --lh-h1:7.2rem;
+    --fs-h2:5.6rem;     --lh-h2:6.4rem;
+    --fs-h3:4.8rem;     --lh-h3:5.6rem;
+    --fs-h4:4.0rem;     --lh-h4:4.8rem;
+    --fs-h5:3.2rem;     --lh-h5:4.0rem;
+    --fs-h6:2.4rem;     --lh-h6:3.2rem;
+
+
+    --fs-subtitle-lg:1.8rem;     --lh-subtitle-lg:2.6rem;
+    --fs-subtitle-rg:1.6rem;     --lh-subtitle-rg:2.4rem;
+
+    --fs-p-md: 1.6rem;  --lh-p-md: 1.6rem;
+    --fs-p-rg: 1.6rem;  --lh-p-rg: 2.4rem;
+    --fs-p-sm: 1.4rem;  --lh-p-sm: 2.2rem;
+    
+    --fs-btn: 1.6rem;       --lh-btn: 1.6rem;
+    --fs-caption: 1.2rem;   --lh-caption: 2.0rem;
+
+    --ls-tight: -0.03em;
+
+
+    --color-black-1000:#060B27;
+    --color-gray-800:#0E1330;
+    --color-gray-600:#151934;
+    --color-gray-500:#282D45;
+    --color-gray-400:#47507A;
+    --color-gray-300:#8F9BB7;
+    --color-white-200:#F6F6F7;
+    --color-white:#FFFFFF;
+
+
+    --color-primary:#7214FF;
+    --color-orchid:#B756FE;
+    --color-summer:#32CAFD;
+    --color-pink:#DF2DB1;
+    --color-radical:#FF334B;
+    --color-neon:#2D55FB;
+    --color-green:#41E88D;
+    --color-yellow:#FFC933;
+    --color-error:#F6285F;
+
+}

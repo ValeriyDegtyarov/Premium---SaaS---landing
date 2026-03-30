@@ -1,0 +1,219 @@
+
+
+
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 0 4rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.footer-mail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 15rem;
+
+    border-radius: 1rem;
+    background-color: var(--color-gray-800);
+    border: 1px solid var(--color-gray-300); 
+}
+
+
+.footer-mail-icon {
+    display: block;
+    width: 15rem;
+    height: 3.5rem;
+    margin-bottom: 3.5rem;
+       
+}
+
+.footer-mail-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4rem 3rem;
+    
+
+    input{
+        width: 100%;
+        padding: 1rem 2.7rem;
+        border: 1px solid var(--color-gray-300);
+        border-radius: 2.7rem;
+        background-color: transparent;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.footer-mail-title {
+    font-size: var(--fs-h6);
+    line-height: var(--lh-h6);
+    font-weight: 700;
+    letter-spacing: var(--ls-tight);
+
+    color: var(--color-white-200);
+    margin-bottom: 1.9rem;
+}
+
+.btn-footer {
+    width: 100%;
+}
+
+.footer-mail-subtitle {
+    font-family:'Satoshi',sans-serif;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    letter-spacing: var(--ls-tight);
+    color: var(--color-gray-300);
+    margin-bottom: 3.5rem;
+}
+
+.footer-mail-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15rem;
+    row-gap: 2.5rem;
+}
+
+.footer-mail-link {
+    font-size: var(--fs-btn);
+    line-height: var(--lh-btn);
+    color: var(--color-gray-300);
+    font-weight: 500;
+}
+
+
+.footer-mail-links--right {
+    margin-left: 15rem;
+   
+   
+   
+    .footer-mail-items{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+   }
+}
+
+
+.footer-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--color-gray-500);
+    margin-bottom: 4rem;
+    
+}
+
+.footer-down-text {
+    font-size:var(--fs-p-rg);
+    line-height: var(--lh-p-rg);
+    font-weight: 400;
+    color: var(--color-gray-300);
+    margin-top: 3rem;
+}
+
+.footer-down-white {
+    color: var(--color-white-200);
+    font-weight: 700;
+}
+
+.footer-down-social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 3rem;
+    gap: 1.5rem;
+}
+
+
+.ellipse-11 {
+     width: 24.2rem;
+    height: 24.2rem;
+    background-color: var(--color-primary);
+    bottom: 4rem;
+    right: 46%;
+    filter: blur(210px);
+}
+
+@media (max-width: 768px) {
+    .footer-inner {
+        flex-direction: column;
+        padding: 5rem 0 2rem 0;
+    }
+
+    .footer-mail {
+        margin-right: 0;
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+
+    .footer-mail-icon {
+        width: 12rem;
+        height: 2.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer-mail-form {
+        padding: 2rem;
+    }
+
+    .footer-mail-title {
+        font-size: 1.1rem;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+
+    .footer-mail-form input {
+        padding: 0.8rem 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-mail-links {
+        display: none;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .footer-mail-subtitle {
+        font-size: 1.3rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+    }
+
+    .footer-mail-items {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 1.5rem;
+    }
+
+    .footer-mail-link {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    .footer-mail-links--right {
+        margin-left: 0;
+    }
+
+    .footer-down {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .footer-down-text {
+        font-size: 0.85rem;
+        line-height: 1.4;
+        margin-top: 2rem;
+    }
+
+    .footer-down-social {
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 2rem;
+    }
+}

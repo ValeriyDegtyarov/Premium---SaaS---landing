@@ -1,0 +1,238 @@
+.reviews-inner{
+    margin-top: 14rem;
+   
+}
+
+.reviews-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.reviews-title {
+    font-family: 'Satoshi', sans-serif;
+    font-size: var(--fs-h2);
+    line-height: var(--lh-h2);
+    letter-spacing: var(--ls-tight);
+    font-weight: 700;
+
+
+    background: linear-gradient(to bottom, #F6F6F7 0%, #7E808F 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    margin-bottom: 2.4rem;
+
+}
+
+.reviews-text {
+    font-size: var(--fs-subtitle-rg);
+    line-height: var(--lh-subtitle-rg);
+    letter-spacing: var(--ls-tight);
+
+    color: var(--color-gray-300);
+    margin-bottom: 6rem;
+}
+
+.reviews-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 34.5rem;
+    padding: 2.5rem;
+
+    border: 1px solid var(--color-gray-500);
+
+    background-color: var(--color-gray-600);
+
+    border-radius: 1rem;
+
+    position: relative;
+    z-index: 1;
+
+  
+
+}
+
+.reviews-card-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2.5rem;
+   
+}
+
+.reviews-card-photo {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.reviews-card-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.reviews-card-title {
+    font-size: var(--fs-p-md);
+    line-height: var(--lh-p-md);
+    letter-spacing: var(--ls-tight);
+    font-weight: 700;
+
+    margin-bottom: 0.4rem;
+
+    color: var(--color-white-200);
+}
+
+.reviews-card-prof {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+
+    color: var(--color-gray-300);
+}
+
+.reviews-card-icon {
+    display: block;
+    width: 5.5rem;
+    height: 4rem;
+    margin-left: auto;
+}
+
+.reviews-card-text {
+    font-size: var(--fs-p-rg);
+    line-height: var(--lh-p-rg);
+    letter-spacing: var(--ls-tight);
+
+   
+
+    color: var(--color-white-200);
+}
+
+
+.reviews-card-wrapper {
+    position: relative;
+}
+
+
+.reviews-card-glow {
+    position: absolute;
+    bottom: -2.5rem;
+    left: -2rem;
+    height: 11rem;
+    right: -2rem;
+    border-radius: 1rem;
+    z-index: 0;
+    opacity: 0.2;
+  
+  
+}
+.reviews-card-wrapper:nth-child(1) .reviews-card-glow {
+    background: linear-gradient(to right, #A64CE8 0%, #A8E9FF 50%, #C6FFE0 100%);
+}
+
+.reviews-card-wrapper:nth-child(2) .reviews-card-glow {
+    background: linear-gradient(to right, #4162EC 0%, #8541EB 50%, #A550E2 100%);
+}
+
+.reviews-card-wrapper:nth-child(3) .reviews-card-glow {
+    background: linear-gradient(to right, #53C7EE 0%, #73F6AF 50%, #9B67EA 100%);
+}
+
+.reviews-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    gap: 1.5rem;
+
+    .right-arrow {
+        transform: rotate(180deg);
+    }
+}
+
+
+@media (max-width: 1100px){
+      .reviews-cards {
+        flex-direction: column;
+        gap: 2rem;
+    }
+     .reviews-card {
+        max-width: 100%;
+        padding: 1.5rem;
+    }
+
+}
+@media (max-width: 768px) {
+    .reviews-inner {
+        margin-top: 5rem;
+    }
+
+    .reviews-title {
+        font-size: 1.8rem;
+        line-height: 1.3;
+        margin-bottom: 1rem;
+    }
+
+    .reviews-text {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-bottom: 2rem;
+        max-width: 100%;
+    }
+
+    .reviews-cards {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .reviews-card {
+        max-width: 100%;
+        padding: 1.5rem;
+    }
+
+    .reviews-card-photo {
+        width: 3rem;
+        height: 3rem;
+        margin-right: 0.8rem;
+    }
+
+    .reviews-card-title {
+        font-size: 0.9rem;
+    }
+
+    .reviews-card-prof {
+        font-size: 0.8rem;
+    }
+
+    .reviews-card-icon {
+        width: 3rem;
+        height: 2rem;
+        margin-left: 0.5rem;
+    }
+
+    .reviews-card-text {
+        font-size: 0.85rem;
+        line-height: 1.4;
+    }
+
+    .reviews-button {
+        margin-top: 3rem;
+        gap: 1rem;
+    }
+
+    .reviews-btn {
+        padding: 0.5rem;
+    }
+}
